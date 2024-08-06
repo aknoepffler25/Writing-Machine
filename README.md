@@ -74,7 +74,7 @@ Example of writing "HELLO WORLD":
 
 ## Bill of Materials
 
-The full component Bill of Materials is included in the [BOM.xlsx](BOM.xlsx) file.
+The full component Bill of Materials is included in the BOM.xlsx.pdf file.
 
 ## CAD Model
 
