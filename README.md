@@ -1,12 +1,21 @@
-# Writing Machine
+Here's an updated README file incorporating all the necessary elements for your GitHub repository:
 
-The Writing Machine is a Java application that controls a set of stepper motors to write the message "Hello World". The application uses MQTT protocol to send commands to the motors.
+---
+
+# Writing Machine Project
+
+The Writing Machine is a Java application designed to control a set of stepper motors to write the message "Hello World". This project leverages the MQTT protocol to send commands to the motors.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Code Overview](#code-overview)
+- [Bill of Materials](#bill-of-materials)
+- [CAD Model](#cad-model)
+- [Assembly Instructions](#assembly-instructions)
+- [Demo Video](#demo-video)
+- [Lessons Learned](#lessons-learned)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -63,6 +72,26 @@ Example of writing "HELLO WORLD":
 9. Call `letters("L")`
 10. Call `letters("D")`
 
+## Bill of Materials
+
+The full component Bill of Materials is included in the [BOM.xlsx](BOM.xlsx) file.
+
+## CAD Model
+
+The complete CAD model assembly file can be found in the [DESIGN.step](DESIGN.step) file.
+
+## Assembly Instructions
+
+Detailed pictures and explanations of the assembly process are provided in the [ASSEMBLY.pdf](ASSEMBLY.pdf) file.
+
+## Demo Video
+
+A clean video of the full operating system is available in the [DEMO.mp4](DEMO.mp4) file.
+
+## Lessons Learned
+
+During this project, we learned about the intricacies of controlling stepper motors via the MQTT protocol and how to integrate Java with hardware components. HexTech was extremely helpful in providing the necessary tools and support to successfully complete this project.
+
 ## Contributing
 
 Contributions are welcome! Please submit a pull request or open an issue to discuss your ideas.
@@ -73,4 +102,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-You can customize this README further based on your specific needs and preferences.
+This README provides a comprehensive overview of your project and includes sections for each required element. Be sure to add your files (BOM.xlsx, DESIGN.step, ASSEMBLY.pdf, DEMO.mp4) to the repository.
